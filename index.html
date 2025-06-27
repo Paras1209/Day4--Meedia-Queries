@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design with Media Queries</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Responsive Site</h2>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#service" class="nav-link">Services</a>
+                    <a href="#" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Our Responsive Website</h1>
+                <p>This website demonstrates responsive design using media queries. Resize your browser window or use DevTools to see how it adapts to different screen sizes.</p>
+                <button class="cta-button">Get Started</button>
+            </div>
+            <div class="hero-image">
+                <img src="https://picsum.photos/600/400" alt="Hero Image" class="responsive-image">
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>Our Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <img src="https://picsum.photos/300/200?random=1" alt="Feature 1" class="feature-image">
+                        <h3>Responsive Design</h3>
+                        <p>Our website adapts seamlessly to all screen sizes, from desktop to mobile devices.</p>
+                    </div>
+                    <div class="feature-card">
+                        <img src="https://picsum.photos/300/200?random=2" alt="Feature 2" class="feature-image">
+                        <h3>Modern Layout</h3>
+                        <p>Clean, modern design that looks great on any device with smooth transitions.</p>
+                    </div>
+                    <div class="feature-card">
+                        <img src="https://picsum.photos/300/200?random=3" alt="Feature 3" class="feature-image">
+                        <h3>Fast Loading</h3>
+                        <p>Optimized images and code ensure fast loading times across all platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="content-columns">
+                    <div class="content-left">
+                        <h2>About Our Company</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque perspiciatis maiores temporibus illum velit explicabo, corrupti iure ex ad atque dicta. In officiis dolorem aut accusamus minus inventore odit dicta?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae aliquam alias quis? Quae repellat laborum, similique reiciendis quod modi provident dolorem aliquid cupiditate? Possimus veniam repudiandae sunt architecto et iusto?/p>
+                    </div>
+                    <div class="content-right">
+                        <img src="https://picsum.photos/500/400?random=4" alt="About Us" class="content-image">
+                        <div class="stats">
+                            <div class="stat-item">
+                                <h3>500+</h3>
+                                <p>Projects Completed</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>98%</h3>
+                                <p>Client Satisfaction</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>24/7</h3>
+                                <p>Support Available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container">
+                <h2>Our Portfolio</h2>
+                <div class="gallery-grid">
+                    <img src="https://picsum.photos/400/300?random=5" alt="Portfolio 1" class="gallery-image">
+                    <img src="https://picsum.photos/400/300?random=6" alt="Portfolio 2" class="gallery-image">
+                    <img src="https://picsum.photos/400/300?random=7" alt="Portfolio 3" class="gallery-image">
+                    <img src="https://picsum.photos/400/300?random=8" alt="Portfolio 4" class="gallery-image">
+                    <img src="https://picsum.photos/400/300?random=9" alt="Portfolio 5" class="gallery-image">
+                    <img src="https://picsum.photos/400/300?random=10" alt="Portfolio 6" class="gallery-image">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Email: demo@gmail.com</p>
+                    <p>Phone: +92 XXXXXXXXX</p>
+                    <p>Address: Silicon valley , New York</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="privacy-policy">Privacy Policy</a></li>
+                        <li><a href="terms">Terms of Service</a></li>
+                        <li><a href="support">Support</a></li>
+                        <li><a href="faqs">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="facebok">Facebook</a>
+                        <a href="twitter">Twitter</a>
+                        <a href="linkedin">LinkedIn</a>
+                        <a href="instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ResponsiveSite. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
